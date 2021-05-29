@@ -1,0 +1,13 @@
+export const POOLING_CONTRACT_ADDRESS =
+  process.env.REACT_APP_POOLING_CONTRACT_ADDRESS ||
+  '0x2097F147F684dcf76A780931DDC491461d21dd06';
+
+export const TOKEN_CONTRACT_ADDRESS =
+  process.env.REACT_APP_TOKEN_CONTRACT_ADDRESS ||
+  '0x4d7fb71131171fbd876f2010baf428779c1c893b';
+
+export const EXPLORER_URL =
+  process.env.REACT_APP_EXPLORER_URL || 'https://kovan.etherscan.io';
+
+export const REQUIRED_CHAIN_ID =
+  process.env.REACT_APP_REQUIRED_CHAIN_ID || '0x2a';
